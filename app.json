@@ -1,0 +1,43 @@
+{
+  "expo": {
+    "name": "Words of Life",
+    "slug": "wordsoflife",
+    "version": "1.1.0",
+    "orientation": "portrait",
+    "icon": "./assets/images/appleicon.png",
+    "scheme": "myapp",
+    "userInterfaceStyle": "automatic",
+    "splash": {
+      "image": "./assets/Logo_leaf.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "WordsOfLife",
+      "buildNumber": "1.0",
+      "infoPlist": {
+        "UIBackgroundModes": "remote-notification"
+      }
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/images/androidiconforeground.png",
+        "backgroundImage": "./assets/images/androidiconbackground.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.jamie1964two.wordsoflife",
+      "versionCode": 2,
+      "permissions": ["RECORD_AUDIO"]
+    },
+    "web": {
+      "favicon": "./assets/images/appleicon.png"
+    }
+  }
+}
